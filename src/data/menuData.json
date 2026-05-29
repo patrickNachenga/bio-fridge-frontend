@@ -1,0 +1,156 @@
+[
+  {
+    "header": "",
+    "items": [
+      {
+        "text": "Dashboard",
+        "icon": "bx bx-home",
+        "available": true,
+        "link": "/",
+        "permission": ["1", "2", "3"],
+        "role": ["admin"]
+      },
+      {
+        "text": "Profile",
+        "icon": "bx bx-user",
+        "available": true,
+        "link": "/account/settings",
+        "permission": ["1", "2", "3"],
+        "role": ["admin"]
+      }
+    ]
+  },
+
+ 
+
+
+  {
+    "header": "SERVICES",
+    "items": [
+      {
+        "text": "Fridges",
+        "icon": "bx bx-unite",
+        "available": true,
+        "link": "/fridges",
+        "permission": ["1"],
+        "role": ["admin"]
+      },
+       {
+        "text": "Sample Managment",
+        "icon": "bx bx-layer",
+        "available": true,
+        "link": "/sample-managments",
+        "permission": ["1"],
+        "role": ["admin"]
+      },
+       {
+        "text": "Reports",
+        "icon": "bx bx-layer",
+        "available": true,
+        "link": "/reports",
+        "permission": ["1"],
+        "role": ["admin"]
+      }
+    ]
+  },
+
+  {
+    "header": "SETTINGS",
+    "items": [
+      {
+        "text": "Projects",
+        "icon": "bx bx-unite",
+        "available": true,
+        "link": "/settings/projects",
+        "permission": ["1"],
+        "role": ["admin"]
+      },
+      {
+        "text": "Sample Setup",
+        "icon": "bx bx-layer",
+        "available": true,
+        "permission": ["1"],
+        "role": ["admin"],
+         "link": "",
+        "submenu": [
+          {
+            "text": "Type",
+            "icon": "bx bx-git-branch",
+            "available": true,
+            "link": "/samples/types",
+            "permission": [""],
+            "role": ["admin"]
+          },{
+            "text": "Condition",
+            "icon": "bx bx-diamond",
+            "available": true,
+            "link": "/samples/conditions",
+            "permission": ["1"],
+            "role": ["admin"]
+          },
+          {
+            "text": "Nature",
+            "icon": "bx bx-detail",
+            "available": true,
+            "link": "/samples/natures",
+            "permission": ["1"],
+            "role": ["admin"]
+          },
+          {
+            "text": "Source",
+            "icon": "bx bx-box",
+            "available": true,
+            "link": "/samples/sources",
+            "permission": ["1"],
+            "role": ["admin"]
+          }
+          
+         
+        ]
+
+      }
+    ]
+  },
+
+  {
+    "header": "ADMINISTRATION",
+    
+    "items": [  
+      {
+        "text": "User Managment",
+        "icon": "bx bx-group",
+        "available": true,
+        "link": "",
+        "submenu": [
+          {
+            "text": "Users",
+            "icon": "bx bx-group",
+            "available": true,
+            "link": "/users/list",
+            "permission": [""],
+            "role": ["admin"]
+          },
+          {
+            "text": "Roles",
+            "icon": "bx bx-detail",
+            "available": true,
+            "link": "/account/settings1",
+            "permission": ["1"],
+            "role": ["admin"]
+          },
+          {
+            "text": "Permissions",
+            "icon": "bx bx-box",
+            "available": true,
+            "link": "/account/settings2",
+            "permission": ["1"],
+            "role": ["admin"]
+          }
+         
+        ]
+      }
+
+    ]
+  }
+
+]
